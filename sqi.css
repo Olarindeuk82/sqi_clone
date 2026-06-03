@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* HEADER */
+.nav{
+    border: 1px solid rgba(0, 0, 0, 0.08)  ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95px;
+    display: flex;
+    padding: 14px 10px;
+    justify-content: space-around; 
+    background-color: white; 
+
+}
+/* SQI-LOGO */
+.img-box{
+    height: 9.5dvh;
+    width: 50px;
+    border: 0px solid;
+    background-image: url(./media/sqi-logo.png);
+    background-size: contain, cover;
+
+}
+/* LEFT NAV */
+.nav-elements{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    color: #213595;
+    font-family:  font-family:Poppins, Helvetica, Arial, Lucida, sans-serif;
+  
+}
+/* HERO */
+.b-contain{
+   margin: 50px auto;
+   width: 1000px;
+   margin-top: 95px;
+    border: 0px solid green;
+    height: px;
+    display: flex;
+    justify-content: space-between;
+}
+/* GEBERAL-HER0-BORDER */
+.hero{
+    border: 0px solid black;
+    height: 58dvh;
+    width: 472px;
+    margin-top: 130px;
+    
+}
+
+/* SEPERATE BORDERS */
+.hero1{
+font-size: 36px;
+font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 70.4px;
+  color: rgb(0, 14, 66);
+  background-color: rgba(0, 0, 0, 0);
+  text-align: left;
+  vertical-align: baseline;   
+  width: 490px;
+
+ p{
+    margin-top: 20px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: rgb(71, 71, 71);
+  background-color: rgba(0, 0, 0, 0);
+  text-align: left;
+  vertical-align: baseline;
+ }   
+
+ button{
+    border: 0px solid;
+    width: 130px;
+    height: 49px;
+    border-radius: 12%;
+    background-color: #00208a;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23.8px;
+  color: rgb(255, 255, 255);
+  letter-spacing: -0.14px;
+  
+
+ }
+}
+
+
+
+.hero2{
+    background-image: url(./media/Screenshot\ 2026-06-03\ 191925.png);
+    background-size:contain;
+    margin-left: 34px;
+}
+/* body-section */
+.body{
+
+   border: 1px solid black; 
+   width: 900px;
+   margin: 50px auto;
+   width: 1000px;
+}
+.body-head{
+    font-size: 10px;
+font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 36px;
+  font-weight: 750;
+  line-height: 70.4px;
+  color: rgb(0, 14, 66);
+  background-color: rgba(0, 0, 0, 0);
+}
+/* image-boxes */
+.mother-box{
+    display: flex;
+    gap: 48px;
+    
+}
+.box{
+    height: 44dvh;
+    width: 301px;
+    border: 1px solid;
+}
+
+.box1{
+    background-image: url(./media/box1.png);
+    background-size: contain;
+}
+
+.box2{
+    background-image: url(./media/box2.png);
+    background-size: contain;
+}
+.box3{
+    background-image: url(./media/box3.png);
+    background-size: contain;
+}
+/* image-caption */
+.caption-box{
+   display: flex;
+    gap: 48px;
+     
+}
+.body-head11{
+    font-size: 10px;
+font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 20px;
+  font-weight: 750;
+  color: rgb(0, 14, 66);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.body-head12{
+    font-size: 10px;
+font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 20px;
+  font-weight: 750;
+  color: rgb(0, 14, 66);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.body-head13{
+font-size: 10px;
+font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 20px;
+  font-weight: 750;
+  color: rgb(0, 14, 66);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.body-cap{
+    margin-top: 20px;
+    font-family: Poppins, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 14px;
+  font-weight: 520px;
+  line-height: 23.1px;
+  color: rgb(102, 102, 102);
+  background-color: rgba(0, 0, 0, 0);
+  text-align: left;
+  vertical-align: baseline;
+}
+
